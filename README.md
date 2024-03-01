@@ -15,7 +15,7 @@ https://help.zerossl.com/hc/en-us/articles/360058295854-Installing-SSL-Certifica
 
 
 Apache2 proxy settings 
-<VirtualHost 172.245.6.196:443>
+`<VirtualHost 172.245.6.196:443>
     ServerName 172.245.6.196:8000
 
     SSLEngine on
@@ -32,4 +32,4 @@ Apache2 proxy settings
 SSLEngine                on
 SSLCertificateFile       /etc/ssl/certificate.crt
 SSLCertificateKeyFile    /etc/ssl/private/private.key
-SSLCertificateChainFile  /etc/ssl/ca_bundle.crt
+SSLCertificateChainFile  /etc/ssl/ca_bundle.crt`
