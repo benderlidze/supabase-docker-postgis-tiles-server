@@ -1,4 +1,5 @@
 Install a PostGis tile server with Supabase(as api provider)
+https://medium.com/@frederic.rodrigo/web-mapping-comparing-vector-tile-servers-from-postgres-postgis-405055e69084
 
 Ububntu 20.4
 1) Install docker
