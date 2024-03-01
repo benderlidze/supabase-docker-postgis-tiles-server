@@ -10,4 +10,4 @@ https://supabase.com/docs/guides/self-hosting/docker#using-an-external-database
 5) install https://t-rex.tileserver.ch/doc/serve/#usage (should be httpS)
 6) t_rex serve --dbconn postgresql://postgres:your-super-secret-and-long-postgres-password@localhost:5432/ --bind 172.245.*.*
 7) ZeroSSL +  /usr/bin/python3 -m http.server 80
-
+https://help.zerossl.com/hc/en-us/articles/360058295854-Installing-SSL-Certificate-on-Apache
