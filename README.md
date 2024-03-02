@@ -56,4 +56,24 @@ server {
     }
 }
 
+
+server {
+    listen 6868 ssl;
+    server_name 172.245.6.196;
+
+    ssl_certificate /etc/ssl/certificate.crt;
+    ssl_certificate_key /etc/ssl/private.key;
+
+    location / {
+        proxy_pass http://172.245.6.196:6767;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+        proxy_set_header Upgrade $http_upgrade;
+        proxy_set_header Connection 'upgrade';
+    }
+}
+
+
 ```
