@@ -54,5 +54,6 @@ server {
     }
 }
 
+8) supabase env -> root/supabase/docker/supabase/.env
 
 ```
