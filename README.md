@@ -56,4 +56,6 @@ server {
 
 8) supabase env -> root/supabase/docker/supabase/.env
 
+Supabase docker container setup https://github.com/orgs/supabase/discussions/9597
+
 ```
