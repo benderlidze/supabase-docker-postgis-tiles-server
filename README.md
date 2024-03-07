@@ -53,9 +53,10 @@ server {
         proxy_set_header Connection 'upgrade';
     }
 }
-
+```
 8) supabase env -> root/supabase/docker/supabase/.env
 
 Supabase docker container setup https://github.com/orgs/supabase/discussions/9597
 
-```
+9) set up SUPABASE_PUBLIC_URL and SITE_URL https://github.com/supabase/supabase/issues/20985
+
